@@ -24,9 +24,7 @@ struct ContentView: View {
                
             }
             
-            VStack(spacing: 0) {
-                
-            }
+           NavBarView()
             
           
         }

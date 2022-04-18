@@ -18,12 +18,8 @@ struct ContentView: View {
                 Divider()
                 
                 PostView()
-                
-                PostView(user: "lucasnewlands_", userImage: "userprofile", image: "dog2", description: "🐶")
                 PostView(user: "lucasnewlands_", userImage: "userprofile", image: "dog1", description: "🐶")
                 PostView(image: "profile2", description: "❤️")
-                PostView(image: "profile1", description: "")
-                PostView(user: "barbaradods", userImage: "profile3", image: "profile3", description: "🔥🔥")
                
             }
             

@@ -14,20 +14,24 @@ struct NavBarView: View {
             
             HStack {
                 Image("home")
+                    .frame(width: 25, height: 25)
                 Spacer()
                 Image("search")
+                    .frame(width: 25, height: 25)
                 Spacer()
                 Image("reels")
+                    .frame(width: 25, height: 25)
                 Spacer()
                 Image("shop")
+                    .frame(width: 25, height: 25)
                 Spacer()
                 Image("userprofile")
                     .resizable()
-                    .frame(width: 21, height: 21)
+                    .frame(width: 25, height: 25)
                     .cornerRadius(50)
             }
             .padding(.horizontal, 25)
-            .padding(.top, 10)
+            .padding(.top, 20)
         }
     }
 }

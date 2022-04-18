@@ -9,7 +9,7 @@ import SwiftUI
 
 struct PostView: View {
     var user: String = "lucasnewlands_"
-    var userImage: String = "profile4"
+    var userImage: String = "userprofile"
     
     var image: String = "profile4"
     var description: String = "Posso não ter chegado ainda onde eu quero. Mas estou mais perto que ontem..."
@@ -68,7 +68,7 @@ struct PostView: View {
             
             HStack {
                 HStack(spacing: 7.0) {
-                    Image("profile2")
+                    Image("userprofile")
                         .resizable()
                         .frame(width: 24, height: 24)
                         .cornerRadius(50)

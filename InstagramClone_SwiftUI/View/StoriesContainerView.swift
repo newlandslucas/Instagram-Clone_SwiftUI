@@ -10,16 +10,16 @@ import SwiftUI
 struct StoriesContainerView: View {
     var body: some View {
         ScrollView(.horizontal, showsIndicators: false) {
-            HStack(spacing: 15.0) {
-                StoriesView(image: "profile4", name: "lucasnewlands_")
+            HStack(spacing: 8) {
+                StoriesView(image: "userprofile", name: "lucasnewlands_")
                 StoriesView(image: "profile3", name: "barbaradods")
-                StoriesView(image: "profile5", name: "boltWave")
-                StoriesView(image: "profile4", name: "lucasnewlands_")
+                StoriesView(image: "dog2", name: "boltWave")
+                StoriesView(image: "userprofile", name: "lucasnewlands_")
                 StoriesView(image: "profile3", name: "barbaradods")
-                StoriesView(image: "profile5", name: "boltWave")
-                StoriesView(image: "profile4", name: "lucasnewlands_")
+                StoriesView(image: "dog2", name: "boltWave")
+                StoriesView(image: "userprofile", name: "lucasnewlands_")
                 StoriesView(image: "profile3", name: "barbaradods")
-                StoriesView(image: "profile5", name: "boltWave")
+                StoriesView(image: "dog2", name: "boltWave")
             }
             .padding(.horizontal, 8)
         }

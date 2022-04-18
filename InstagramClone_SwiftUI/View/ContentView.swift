@@ -12,10 +12,23 @@ struct ContentView: View {
         VStack(spacing: 0.0) {
             HeaderView()
             
-          StoriesContainerView()
-           
+            ScrollView(.vertical, showsIndicators: false) {
+                StoriesContainerView()
+                
+                Divider()
+                
+                PostView(user: "lucasnewlands_", userImage: "userprofile", image: "dog2", description: "🐶")
+                PostView(user: "lucasnewlands_", userImage: "userprofile", image: "dog1", description: "🐶")
+                PostView(image: "dog", description: "Almost 2 years old, I love her.")
+                PostView(user: "barbaradods", userImage: "profile3", image: "profile3", description: "🔥🔥")
+               
+            }
             
-            Spacer()
+            VStack(spacing: 0) {
+                
+            }
+            
+          
         }
     }
 }

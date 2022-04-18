@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct StoriesView: View {
-    var image: String = "profile4"
+    var image: String = "userprofile"
     var name: String = "Your Storie"
     
     var body: some View {

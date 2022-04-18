@@ -12,6 +12,9 @@ struct ContentView: View {
         VStack(spacing: 0.0) {
             HeaderView()
             
+          StoriesContainerView()
+           
+            
             Spacer()
         }
     }

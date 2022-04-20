@@ -11,8 +11,11 @@ struct SearchView: View {
     @State var text: String
     
     var body: some View {
-        VStack(spacing: 0.0) {
+        VStack(spacing: 10.0) {
             SearchInput(text: text)
+                .padding(.horizontal, 16)
+            
+            Labels()
             
             Spacer()
         }

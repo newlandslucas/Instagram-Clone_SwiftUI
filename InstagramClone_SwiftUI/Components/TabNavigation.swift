@@ -15,7 +15,7 @@ struct tabNavigation: View {
                     .tabItem {
                         Image("home")
                     }
-                Image("search")
+                SearchView(text: "")
                     .tabItem {
                         Image("search")
                     }
@@ -31,6 +31,7 @@ struct tabNavigation: View {
                 Image(systemName:"person.circle")
                     .tabItem {
                         Image(systemName:"person.circle")
+                            .foregroundColor(Color(.black))
                         
                     }
             }

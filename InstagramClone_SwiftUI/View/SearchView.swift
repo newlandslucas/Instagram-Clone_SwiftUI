@@ -17,7 +17,10 @@ struct SearchView: View {
             
             Labels()
             
-            Spacer()
+            ScrollView(.vertical, showsIndicators: false) {
+                Grid()
+            }
+            
         }
     }
 }

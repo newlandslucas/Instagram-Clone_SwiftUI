@@ -9,24 +9,9 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack(spacing: 0.0) {
-            HeaderView()
+        
             
-            ScrollView(.vertical, showsIndicators: false) {
-                StoriesContainerView()
-                
-                Divider()
-                
-                PostView()
-                PostView(user: "lucasnewlands_", userImage: "userprofile", image: "dog1", description: "🐶")
-                PostView(image: "profile2", description: "❤️")
-               
-            }
-            
-           NavBarView()
-            
-          
-        }
+    tabNavigation()
     }
 }
 

@@ -15,7 +15,7 @@ struct SearchView: View {
             SearchInput(text: text)
                 .padding(.horizontal, 16)
             
-            Labels()
+//            Labels()
             
             ScrollView(.vertical, showsIndicators: false) {
                 Grid()

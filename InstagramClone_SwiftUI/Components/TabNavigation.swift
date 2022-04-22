@@ -14,6 +14,7 @@ struct tabNavigation: View {
                 HomeView()
                     .tabItem {
                         Image("home")
+
                     }
                 SearchView(text: "")
                     .tabItem {
